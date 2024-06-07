@@ -100,3 +100,7 @@ while True:
     key = cv2.waitKey(1)
     if key == 27:
       	break
+    cv2.waitKey(30)  # Add a small delay for better visibility
+cap.release()
+cv2.destroyAllWindows()	
+	    
